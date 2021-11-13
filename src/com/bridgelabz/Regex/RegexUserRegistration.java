@@ -27,6 +27,12 @@ public class RegexUserRegistration {
               String mobileNumber = scanner.next();
               userDetails.mobileNumber(mobileNumber);
 
+
+       }
+       public void userPassword() {
+              System.out.println("Enter your Password");
+              String password = scanner.next();
+              userDetails.password(password);
        }
 
 

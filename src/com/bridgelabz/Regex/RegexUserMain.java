@@ -12,6 +12,7 @@ public class RegexUserMain {
                     + "Enter 2 To Check Second Name\n"
                     + "Enter 3 To Check EmailId\n"
                     + "Enter 4 To Check Mobile Number\n"
+                    + "Enter 5 To Check Password\n"
                     + "Enter 0 To Exit");
 
             int choice = scanner.nextInt();
@@ -28,6 +29,8 @@ public class RegexUserMain {
                 case 4 :
                         regexUserRegistration.userMobileNumber();
                         break;
+                case 5 :
+                        regexUserRegistration.userPassword();
                 case 0:
                        System.exit(0);
                        break;
